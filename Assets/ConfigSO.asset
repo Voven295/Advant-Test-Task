@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10b498ef6ff4ea40958a970f5d30acc, type: 3}
+  m_Name: ConfigSO
+  m_EditorClassIdentifier: 
+  Businesses:
+  - Level: 1
+    IncomeDelay: 3
+    StartPrice: 3
+    StartIncome: 3
+    IncomeProgress: 0
+    FirstUpgrade:
+      IsPurchased: 0
+      Price: 50
+      IncomeMultiplierInPercentage: 0.5
+    SecondUpgrade:
+      IsPurchased: 0
+      Price: 400
+      IncomeMultiplierInPercentage: 1
+    PassedTime: 0
+  - Level: 0
+    IncomeDelay: 6
+    StartPrice: 6
+    StartIncome: 40
+    IncomeProgress: 0
+    FirstUpgrade:
+      IsPurchased: 0
+      Price: 1200
+      IncomeMultiplierInPercentage: 1
+    SecondUpgrade:
+      IsPurchased: 0
+      Price: 4000
+      IncomeMultiplierInPercentage: 2
+    PassedTime: 0
+  - Level: 0
+    IncomeDelay: 10
+    StartPrice: 200
+    StartIncome: 200
+    IncomeProgress: 0
+    FirstUpgrade:
+      IsPurchased: 0
+      Price: 6000
+      IncomeMultiplierInPercentage: 1
+    SecondUpgrade:
+      IsPurchased: 0
+      Price: 20000
+      IncomeMultiplierInPercentage: 1.5
+    PassedTime: 0
+  - Level: 0
+    IncomeDelay: 17
+    StartPrice: 1000
+    StartIncome: 1000
+    IncomeProgress: 0
+    FirstUpgrade:
+      IsPurchased: 0
+      Price: 15000
+      IncomeMultiplierInPercentage: 1
+    SecondUpgrade:
+      IsPurchased: 0
+      Price: 50000
+      IncomeMultiplierInPercentage: 2
+    PassedTime: 0
+  - Level: 0
+    IncomeDelay: 30
+    StartPrice: 5000
+    StartIncome: 5000
+    IncomeProgress: 0
+    FirstUpgrade:
+      IsPurchased: 0
+      Price: 100000
+      IncomeMultiplierInPercentage: 2
+    SecondUpgrade:
+      IsPurchased: 0
+      Price: 500000
+      IncomeMultiplierInPercentage: 4
+    PassedTime: 0
