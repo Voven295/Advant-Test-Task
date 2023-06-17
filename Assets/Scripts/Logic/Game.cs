@@ -86,7 +86,7 @@ namespace Game.Logic
             _world = null;
         }
 
-        private void OnApplicationQuit()
+        private void OnApplicationFocus(bool hasFocus)
         {
             _jsonSerializer.SaveDataToJson(_playerData, _businesses);
         }
